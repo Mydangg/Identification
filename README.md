@@ -1,10 +1,10 @@
 🧠 Nhận Diện Cảm Xúc & Giới Tính Khuôn Mặt
-- Dự án này là một ứng dụng sử dụng học sâu (deep learning) để nhận diện cảm xúc và giới tính từ hình ảnh hoặc video thời gian thực bằng mạng nơ-ron tích chập (CNN) và OpenCV. Các mô hình đã được huấn luyện trên các bộ dữ liệu công khai (ví dụ: FER2013) và được lưu ở định dạng .h5.
+- Dự án này là một ứng dụng sử dụng học sâu (deep learning) để nhận diện cảm xúc và giới tính từ hình ảnh hoặc video thời gian thực bằng mạng nơ-ron tích chập (CNN) và MediaPipe. Các mô hình đã được huấn luyện trên các bộ dữ liệu công khai (ví dụ: FER2013) và được lưu ở định dạng .h5.
 
 🛠️ Công Nghệ Sử Dụng
 - Python
 - TensorFlow / Keras
-- OpenCV
+- MediaPipe
 - Jupyter Notebook
 - NumPy, Pandas, Matplotlib
 
@@ -19,7 +19,7 @@
 
 ▶️ Cách Chạy Ứng Dụng
 1. Clone repository
-git clone https://github.com/yourusername/Identification.git
+git clone https://github.com/Mydangg/Identification.git
 cd Identification
 2. Cài đặt thư viện cần thiết
 pip install -r requirements.txt
